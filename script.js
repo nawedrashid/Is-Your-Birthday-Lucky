@@ -6,9 +6,8 @@ const Output = document.querySelector("#output");
 function CalculateSum(date){
   let sum = 0;
   date = date.replaceAll("-", "");
-  for (let i=0;i<date.length;i++)
-    sum = sum + Number(date.charAt[i]);
-    console.log(sum);
+  for (let digit of date)
+    sum = sum + Number(digit);
   return sum;
 };
 
