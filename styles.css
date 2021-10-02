@@ -7,7 +7,6 @@ body {
     background: linear-gradient(to bottom right,rgb(45,200,500),teal,rgb(45,200,500));
     background-repeat: no-repeat;
     text-align: center;
-    height: 100vh;
     font-family: 'Style Script', cursive;
 }
 h1{
